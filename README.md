@@ -1,4 +1,4 @@
-# CRUD SPRINGBOOT
+# NGINX AND DOCKER COMPOSE
 
 <img src="https://miro.medium.com/max/724/1*FcigeCUocGksT_eaQ4JH9w.png" alt="img" style="width:100%;"/>
 
