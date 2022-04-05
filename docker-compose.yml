@@ -1,13 +1,20 @@
+# indicamos la version yml
 version: '2.0'
+# indicamos los servicios
 services:
+# indicamos el nombre del servicio
     web_nginx:
+# indicamos el nombre
         container_name: componente-html_NGINX
+# indicamos la imagen a utilizar
         image: nginx
+# indicamos el volumen para la persistencia de datos, y las rutas correspondientes
         volumes:
          #  Volumen de sitio de tipo php
          - /var/www/html/web:/var/www/html/web
          #  Volumen para configuracion Default nginx
          - $PWD/nginx:/etc/nginx/conf.d
+# indicamos el puerto de que se expondra
         ports:
          - "9006:80"
 
