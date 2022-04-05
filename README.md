@@ -8,7 +8,7 @@ Ejemplo básico de la implementación de nginx haciendo uso de docker compose
 Levantar el docker
 
 `docker-compose -up`
-## PUERO
+## PUERTO
 Se configuro para que exponga en el puerto 9006
 ## RUTAS
 Ruta de consulta de la pagina web
