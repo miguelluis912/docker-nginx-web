@@ -1,0 +1,13 @@
+version: '2.0'
+services:
+    web_nginx:
+        container_name: componente-html_NGINX
+        image: nginx
+        volumes:
+         #  Volumen de sitio de tipo php
+         - /var/www/html/web:/var/www/html/web
+         #  Volumen para configuracion Default nginx
+         - $PWD/nginx:/etc/nginx/conf.d
+        ports:
+         - "9006:80"
+
